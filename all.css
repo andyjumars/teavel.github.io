@@ -111,24 +111,11 @@ table {
 
 }
 
-@media screen and(max-width:768px){
-  .area {
-    float:none;
-  }
-  .area li{
-    width:80%;
-    margin:0 5% 1em 5%;
-    flaot:none;
-  }
-
-
-  }
-
-
 .hotarea {
   font-size: 18px;
   line-height: 21px;
   margin:auto;
+  
  }
 
 .area {
@@ -145,8 +132,8 @@ table {
   margin: 0 auto;
   left:0;
   right:0;
-  margin-left:20px;
-
+  margin-left:5px;
+  
 
 }
 
@@ -356,7 +343,13 @@ hr {
   background-color:#ccc;
 }
 
+
+
+
 @media screen and (max-width: 840px) {
+  
+
+
   .hot_group{
     margin: auto;
     width: 60%;
@@ -375,8 +368,6 @@ hr {
   
    .area {
       float:none;
-
-
   }
   
   .area li{
@@ -434,12 +425,10 @@ hr {
     padding-right:150px;
     width: 100%;
    float:none;
+
   }
   
-  .area li a {
-
-  }
-
+  
 }
 @media screen and (max-width: 520px) {
   .card{
@@ -449,12 +438,30 @@ hr {
  
 }
 @media screen and (max-width: 480px) {
+  
+
   .hot{
-    width: 80%;
-    margin: 50px auto;
+    width: 70%;
+    margin: 30 auto;
+    margin-top:40%;
   }
+
+
+  hr{
+    margin-top: 130%;
+  }
+  .title-bottom{
+      margin-bottom:30px;
+  }
+
 }
+
 @media screen and (max-width: 320px) {
+  .hotarea{
+    padding-bottom: 30px;
+  }
+
+  
   .hot_group{
     margin: auto;
     width: 80%;
@@ -466,11 +473,7 @@ hr {
   .footer .container a{
     font-size: 10px;
   }
-  .searcharea{
-    font-size: 16px;
-  }
-  
-
+ 
 }
 
 
